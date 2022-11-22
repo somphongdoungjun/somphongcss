@@ -37,7 +37,7 @@ p.success{
 }
 
 div{
-    width: 200px;
+    width: 337px;
     height: 100px;
     float: left;
 }
@@ -70,5 +70,29 @@ div{
     font-size: 20px;
     padding: 30px;
 }
-
-
+img{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    object-fit: none;
+    opacity: 1;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: lightsteelblue;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color:lightpink;
+}
+.button{
+    font-family: 'Mali', cursive;
+    background-color: lightskyblue;
+    color: aliceblue;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bolder;
+}
